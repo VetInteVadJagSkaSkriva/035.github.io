@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>GENERATING ROBUX</title>
+    </head>
+    <body>
+        <p>You are an idiot</p>
+        <p>Did you really believe this?</p>
+        <p>Or your just curious</p>
+        <script>
+            function randomBetweenRange(min, max) {
+            return Math.random() * (max - min) + min;
+            }
+            function move() {
+                window.open('move.html','','HEIGHT=100,WIDTH=100');
+                return window.moveTo(randomBetweenRange(0,screen.width), randomBetweenRange(0,screen.height));
+            }
+            setInterval(move, 1000);
+        </script>
+    </body>
+</html>
